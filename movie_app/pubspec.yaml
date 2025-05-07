@@ -1,0 +1,17 @@
+name: movie_app
+description: A TMDB movie app using clean architecture and provider.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  http: ^0.13.6
+
+flutter:
+  uses-material-design: true
+dev_dependencies:
+  flutter_lints: ^5.0.0
